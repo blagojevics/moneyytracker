@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.form input,
+.form button {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1 1 45%;
+}
+
+.form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  flex: 1 1 100%;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+#expenseList {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#expenseList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eef1f4;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+#expenseList button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#expenseList button:hover {
+  background: darkred;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
